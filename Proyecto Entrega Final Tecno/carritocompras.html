@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop</title>
+  <link rel="stylesheet" href="style2.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+</head>
+<body>
+    <header>
+  <h1 class="titulo-neon">Uplink Studio</h1>
+  <h2 style="color:aliceblue;">Sitios web que atraen, convierten y posicionan tu negocio.</h2> 
+  <nav>
+    <ul>
+      <li><a href="./index.html"><i class="fa fa-star"></i>  Inicio  <i class="fa fa-star"></i></a></li>
+      <li><a href="./index.html#servicios">Servicios  <i class="fa fa-wrench"></i></a></li>
+      <li><a href="./index.html#portafolio">Portafolio  <i class="fa fa-briefcase"></i></a></li>
+      <li><a href="./index.html#contacto">Contacto  <i class="fa fa-address-book"></i></a></li>
+      <li><a href="./carrito.html">Carrito  <i class="fa fa-shopping-cart"></i></a></li>
+    </ul>
+  </nav>
+  <br>
+  <br>
+    <div class="cart-container">
+      <button id="view-cart-btn">🛒 Carrito (<span id="cart-count">0</span>)</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="product-list" class="product-list">
+      <!-- Aquí se renderizarán las tarjetas de productos -->
+    </section>
+
+    <section id="cart-section" class="cart-section hidden">
+      <h2>Carrito de Compras</h2>
+      <div id="cart-items"></div>
+      <div id="cart-total">
+        <p>Total: $<span id="total-price">0</span></p>
+        <button id="clear-cart-btn">Vaciar Carrito</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Derechos Reservados - Uplink </p>
+    <div class="redes">
+      <p>¡Síguenos!</p>
+      <div class="whatsapp">
+        <i class="fa-brands fa-whatsapp"></i>
+        <p>+549 11 2859 2453</p>
+      </div>
+      <div class="instagram">
+        <i class="fa-brands fa-instagram"></i>
+        <p>@Uplink Studio</p>
+      </div>
+      <div class="facebook">
+        <i class="fa-brands fa-facebook"></i>
+        <p>/Uplink Studio</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="article.js"></script>
+</body>
